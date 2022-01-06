@@ -34,7 +34,7 @@ By the end of this, developers should be able to:
     OR:
     1. Run `createdb "django_mangos_auth"`
 4. Do not run your migrations yet.
-1. Open the repository in Atom with `atom .`
+1. Open the repository in VS Code with `code .`
 
 ## The Template
 
