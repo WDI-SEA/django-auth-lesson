@@ -28,8 +28,8 @@ By the end of this, developers should be able to:
 1. Run `pipenv shell` to start up your virtual environment **in the `django-env` folder**.
 1. Run `pipenv install django-rest-auth django-cors-headers python-dotenv dj-database-url` **in the `django-env` folder**.
 2. Create a psql database for the project
-    1. Run `createdb "django_mangos_auth"`
-    OR:
+    1. Run `createdb "django_mangos_auth"`  
+    OR:  
     2. Type `psql` to get into interactive shell
     3. Run `CREATE DATABASE "django_mangos_auth";`
     4. Exit shell
