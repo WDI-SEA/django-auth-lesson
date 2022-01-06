@@ -27,14 +27,14 @@ By the end of this, developers should be able to:
 1. Create and checkout to a new branch, `training`, for your work.
 1. Run `pipenv shell` to start up your virtual environment **in the `django-env` folder**.
 1. Run `pipenv install django-rest-auth django-cors-headers python-dotenv dj-database-url` **in the `django-env` folder**.
-3. Create a psql database for the project
-    1. Type `psql` to get into interactive shell
-    2. Run `CREATE DATABASE "django_mangos_auth";`
-    3. Exit shell
-    OR:
+2. Create a psql database for the project
     1. Run `createdb "django_mangos_auth"`
-4. Do not run your migrations yet.
-1. Open the repository in VS Code with `code .`
+    OR:
+    2. Type `psql` to get into interactive shell
+    3. Run `CREATE DATABASE "django_mangos_auth";`
+    4. Exit shell
+3. Do not run your migrations yet.
+4. Open the repository in VS Code with `code .`
 
 ## The Template
 
